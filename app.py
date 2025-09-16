@@ -37,7 +37,7 @@ if audio and st.button('Send a Message'):
     st.html(f'''
              <audio autoplay style="display:none">
                  <source src="data:audio/mp3;base64,{b64_audio}" type="audio/mp3">
-                 Your browser does not support the audio element.
              </audio>
              ''')
+
 
